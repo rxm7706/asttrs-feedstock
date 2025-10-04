@@ -24,7 +24,7 @@ requirements:
     - pip
     - poetry
   run:
-    - python >=${{ python_min }},<3.11
+    - python >=${{ python_min }},<4.0,<3.11
     - attrs
     - black
     - cattrs
